@@ -1,0 +1,386 @@
+First, there are concerns about the inevitable limitations and biases of algorithms:
+    Virtually all algorithms contain some limitations and biases, based on the limitations and biases of the data on which they are trained.
+    The assumptions on which an algorithm is based may be broadly correct, but in areas of any complexity (and which public sector contexts aren’t complex?) they will at best be incomplete.^
+Second, there are concerns about the way algorithms might be used:
+    Algorithms can (and have been) used in inappropriate contexts, such as companies using job applicants’ credit scores to determine whether to hire them.
+    Algorithms may be deployed without any human oversight leading to actions that could cause harm and which lack any accountability.^
+Third, there are concerns about algorithms’ opacity:
+    The code of algorithms may be unviewable in systems that are proprietary or outsourced.
+    Even if viewable, the code may be essentially uncheckable if it’s highly complex; where the code continuously changes based on live data; or where the use of neural networks means that there is no single ‘point of decision making’ to view.^
+If these concerns are even slightly correct, I’d suggest some basic conclusions can be drawn about the use of algorithms in informing decisions or taking actions in a public sector context:
+    There are relatively few instances where algorithms should be deployed without any human oversight or ability to intervene before the action resulting from the algorithm is initiated. The issues the public sector deals with tend to be messy and complicated, requiring ethical judgements as well as quantitative assessments. Those decisions in turn can have significant impacts on individuals’ lives. We should therefore primarily be aiming for intelligent use of algorithm-informed decision making by humans.
+    If we are to have a ‘human in the loop’, it’s not ok for the public sector to become littered with algorithmic black boxes whose operations are essentially unknowable to those expected to use them.
+    As with all ‘smart’ new technologies, we need to ensure algorithmic decision making tools are not deployed in dumb processes, or create any expectation that we diminish the professionalism with which they are used.^
+1. Design services around people’s rights
+Design services in a way that respects people’s rights and ensures people can easily exercise those rights.^
+2. Only collect data that is needed
+Collect the minimum amount of data necessary to provide a service and avoid collecting data ‘just in case’. Only store data for as long as it’s needed to operate the service.^
+3. Understand the flow of data
+Make sure the decision makers in the organisation know what data is collected and why. Also ensure they know what inferences are made from that data and what is passed to third parties.^
+4. Keep data safe
+Build internal systems that make it possible to control and verify how data is being used and who can access it, so it’s easy to make sure data isn't misused.^
+5. Make permissions and consent understandable
+Write terms of service in plain English. Give people the time and context to make informed decisions by distributing consent and permissions throughout the service — all-or-nothing is not a true choice. Regularly test these with people to ensure they can be understood.^
+6. Be open about how data is used
+Maintain a public record of changes to terms of service. Make it easy for people to understand what data is held about them and what happens to it. Ensure people can change their preferences or object if they disagree about how data will be used.^
+7. Explain automated decisions
+Provide explanations about how automated decisions are made and make it easy for people to challenge those decisions. Explain what you’ve done to minimise bias.^
+8. Empower teams to focus on data ethics
+Ensure the teams designing and operating services are empowered to make decisions about data ethics, and that they have the skills to understand the impact of their decisions on people’s lives.^
+9. Publish a general responsibility of care
+Publicly explain how the service will keep the people who use it safe.^
+Recommended actions to take:
+1.
+Make company policies clear and accessible
+to design and development teams from day
+one so that no one is confused about issues of
+responsibility or accountability. As an AI
+designer or developer,
+it is your
+responsibility to know.^
+2.
+Understand where the responsibility of the
+company/software ends. You may not have
+control over how data or a tool will be used by
+a user, client, or other external source.^
+3.
+Keep detailed records of your design
+processes and decision making. Determine a
+strategy for keeping records during the
+design and development process to
+encourage best practices and encourage
+iteration.^
+4.
+Adhere to your company’s business conduct
+guidelines. Also, understand
+national and
+international laws, regulations, and
+guidelines^
+5
+ that your AI may have to work
+within. You can find other related resources
+in the
+IEEE Ethically Aligned Design
+document^
+6
+To consider:
+1.
+Understand the workings of your AI even if
+you’re not personally developing and
+monitoring its algorithms.^
+2.
+Refer to secondary research by sociologists,
+linguists, behaviorists, and other
+professionals to understand ethical issues in
+a holistic context.^
+Recommended actions to take:
+1.
+Consider the culture that establishes the
+value systems you’re designing within.
+Whenever possible, bring in policymakers
+and academics that can help your team
+articulate relevant perspectives.^
+2.
+Work with design researchers to understand and reflect your users’ values.
+You can find out more about this process here.^
+3.
+Consider mapping out your understanding
+of your users’ values and aligning the AI’s
+actions accordingly with
+an Ethics Canvas.^
+10
+Values will b e sp ecific to cer tain use cases
+and affected communities. Alignment will
+allow users to better understand your AI’s
+actions and intents.^
+To consider:
+1.
+If you need somewhere to start, consider
+IBM’s Standards of Corporate
+Responsibility^
+12
+ or use your company’s
+standards documentation.^
+2.
+Values are subjective and differ glob ally.
+Global companies must take into account
+language barriers and cultural differences.^
+3.
+Well-meaning values can create unintended
+consequences.
+e.g. a tailored political newsfeed
+provides users with news that aligns with their
+beliefs but does not holistically represent the
+gestalt.^
+Recommended actions to take:
+1.
+Allow for questions. A user should be able to
+ask why an AI is doing what it's doing on an
+ongoing basis. This should be clear and up
+front in the user interface at all times.^
+2.
+Decision making processes must be
+reviewable, especially if the AI is working
+with highly sensitive personal information
+data like personally identifiable information,
+protected health information, and/or
+biometric data.^
+3.
+When an AI is assisting users with making
+any highly sensitive decisions, the AI must be
+able to provide them with a sufficient
+explanation of recommendations, the data
+used, and the reasoning behind the
+recommendations.^
+4.
+Teams should have and maintain access to a
+record of an AI’s decision processes and be
+amenable to verification of those decision
+processes.^
+To consider:
+1.
+Explainability is needed to build public
+confidence in disruptive technology, to
+promote safer practices, and to facilitate
+broader societal adoption.^
+2.
+There are situations where users may not
+have access to the full decision process
+that an AI might go through,
+e.g., financial
+investment algorithms.^
+3.
+Ensure an AI system’s level of
+transparency is clear. Users should stay
+generally informed on the AI's intent even
+when they can't access a breakdown of the
+AI's process.^
+Recommended actions to take:
+1.
+Real-time analysis of AI brings to light both
+intentional and unintentional biases. When
+bias in data becomes apparent, the team
+must investigate and understand where it
+originated and how it can be mitigated.^
+2.
+Design and develop without intentional
+biases and schedule team reviews to avoid
+unintentional biases. Unintentional biases
+can include stereotyping, confirmation bias,
+and sunk cost bias.^
+3.
+Instill a feedback mechanism or open
+dialogue with users to raise awareness of
+user-identified biases or issues.^
+17
+asks “Let me know what you think,” after
+suggesting a link^
+To consider:
+1.
+Diverse teams help to represent a wider
+variation of experiences to minimize
+bias. Embrace team members of
+different ages, ethnicities, genders,
+educational disciplines, and cultural
+perspectives.^
+2.
+Your AI maybe susceptible to different
+types of bias based on the type of data it
+ingests. Monitor training and results in
+order to quickly respond to issues. Test
+early and often^
+Recommended actions to take:
+1.
+Users should always maintain control over
+what data is being used and in what context.
+They can deny access to personal data that
+they may find compromising or unfit for an
+AI to know or use.^
+2.
+Allow users to deny service or data by
+having the AI ask for permission before an
+interaction or providing the option during
+an interaction. Privacy settings and
+permissions should be clear, findable, and
+adjustable.^
+3.
+Provide full disclosure on how the personal
+information is being used or shared.^
+4.
+Users' data should be protected from theft,
+misuse, or data corruption.^
+5.
+Forbid use of another company's data
+without permission when creating a new AI
+service.^
+6.
+Recognize and adhere to applicable
+national and international rights laws 22 when
+designing for an AI’s acceptable user data
+access permissions.^
+To consider:
+1.
+Employ security practices including
+encryption, access control
+methodologies, and proprietary consent
+management modules to restrict access
+to authorized users and to de-identify
+data in accordance with user
+preferences.^
+2.
+It is your responsibility to work with
+your team to address any lack of these
+practices^
+1. Be clear about the benefits of your product or service
+    While it is important to consider risks of new technologies, this should be done in the context of expected benefits. The benefits should be clear, likely, and outweigh potential, reasonable risks. They should be evaluated for different user groups and for any affected non-user groups (especially when there are competing values or interests between these groups), and with consideration of plausible future trends or changes (such as greater compute capacity, a solution coming to dominate the market, etc).
+        What are the goals, purposes and intended applications of your product or service?
+        Who or what might benefit from your product/service?
+        Consider all potential groups of beneficiaries, whether individual users, groups or society and environment as a whole.
+        Are those benefits common to the application type, or specific to your technology or implementation choices?
+        How will you monitor and test that your products or services meet these goals, purposes and intended applications?
+        How likely are the benefits and how significant?
+        How are you assessing what the benefits are?
+        How are these benefits obtained by your various stakeholders?
+        Can the benefits of your product/service be demonstrated?
+        Might these benefits change over time?
+        What is your position on making (parts of) your products/services available on a non-commercial basis, or on sharing AI knowledge which would enable more people to develop useful AI applications?^
+2. Know and manage your risks
+    Safety and potential harm should be considered, both in consequence of the product’s intended use, and other reasonably foreseeable uses. For example, the possibility of malicious attacks on the technology need to be thought through. Attacks may be against safety, security, data integrity, or other aspects of the system, such as to achieve some particular decision outcome. As with benefits, assessment of risks can be in respect of individuals (not just users), communities, society and environment and should consider plausible future trends or changes.
+        Have you considered what might be the risks of other foreseeable uses of your technology, including accidental or malicious misuse of it?
+        Have you considered all potential groups at risk, whether individual users, groups or society and environment as a whole?
+        Do you currently have a process to classify and assess potential risks associated with use of your product or service?
+        Who or what might be at risk from the intended and non-intended applications of your product/service? Consider all potential groups at risk, whether individual users, groups, society as a whole or the environment.
+        Are those risks common for application area or technology, or specific to your technology or implementation choices?
+        How likely are the risks, and how significant?
+        Do you have a plan to mitigate and manage the risks?
+        How do you communicate the potential risks or perceived risks to your users, potentially affected parties, purchasers or commissioners?
+        How do third-parties or employees report potential vulnerabilities, risks or biases, and what processes are in place to handle these issues and reports?
+        How do you know if you have created or reinforced bias with your system?
+        As a result of assessing potential risks, are there customers or use cases that you choose not to work with? How are these decisions made and documented?^
+3. Use data responsibly
+    Compliance with legislation (such as the GDPR) is a good starting point for an ethical assessment of data and privacy. However, there are other considerations that arise from data-driven products, such as the aptness of data for use in situations that were not encountered in the training data, or whether data contains unfair biases, that must be taken into account when assessing the ethical implications of an AI product or service.
+    Data may come in many forms: as datasets, through APIs, through labour (such as microtasking). The value exchange between those who provide the data (or label it), directly or otherwise, and the company, should be considered for fairness.  If data are used from public sources (e.g. open data collected by a public body or NGO) the company should consider whether it may contribute back or support the work of ongoing data maintenance, perhaps by providing cleaned or corrected data.
+        How were the data obtained, was consent obtained (if required)?
+        Are the data current?
+        Are the training data appropriate for the intended use?
+        Are the data pseudo-anonymised or de-identified? If not, why not?
+        Are the data uses proportionate to the problem being addressed?
+        Are there sufficient data coverage for all intended use-cases?
+        What are the qualities of the data (for example, are the data coming from a system prone to human error?)
+        Are potential biases in the data examined, well-understood and documented and is there a plan to mitigate against them?
+        Do you have a process for discovering and dealing with inconsistencies or errors in the data?
+        What is the quality of the data analysis? How much uncertainty / error is there? What are the consequences which might arise from errors in analysis and how can you mitigate these?
+        Can you clearly communicate how data are being used and how decisions are being made?
+        What systems do you have in place to ensure data security and integrity?
+        Are there adequate methods in place for timely and auditable data deletion, once data is no longer needed?
+        Can individuals remove themselves from the dataset? Can they also remove themselves from any resulting models?
+        Is there a publically available privacy policy in place, and to what extent are individuals able to control the use of data about them, even when they are not users of the service or product?
+        Are there adequate mechanisms for data curation in place to ensure external auditing and replicability of results, and, if a risk has manifested itself, attribution of responsibility?
+        Can individuals access data about themselves?
+        Are you making data available for research processes?^
+4. Be worthy of trust
+    For a technology or product to be trusted it needs to be understood, fit-for-purpose, reliable and competently delivered. Companies should be able to explain the purpose and limitations of their solutions so that users are not misled or confused. There should be processes in place to monitor and evaluate the integrity of the system over time, with clarity over what the quality measures are, and how chosen. Care must be taken to operate within the company’s areas of competence, and to actively engage with third-party evaluation and questions. Things can go wrong, despite best efforts. Companies should put in place procedures to report, investigate, take responsibility for, and resolve issues. Help should be accessible and timely.
+        Within your company, are there sufficient processes and tools built-in to ensure meaningful transparency, auditability, reliability and suitability of the product output?
+        Have you acknowledged the limitations of your  experience on the system you are building and how can these reflect on the system in place? What steps are you taking to address these limitations?
+        Is the nature of the product or technology communicated in a way that the intended users, third parties and the general public can access and understand?
+        Are (potential) errors communicated and their impact explained?
+        Does your company actively engage with its employees, purchasers/commissioners, suppliers, users and affected third-parties so that ethical (including safety, privacy and security) concerns can be voiced, discussed, and addressed?
+        Does your company work with researchers where appropriate to explore or question areas of the technology?
+        Do you have a process to review and assure the integrity of the AI system over time and take remedial action if it is not operating as intended?
+        If human labour has been involved in data preparation (eg image labelling by Mechanical Turk workers) have the workers involved been fairly compensated?
+        If data comes from another source, have the data owner’s rights been preserved (eg copyright, attribution) and has permission been obtained?
+        Who is accountable if things go wrong? Are they the right people? Are they equipped with the skills and knowledge they need to take on this responsibility?
+        What is the quality or standards to which the product / technology must conform (e.g. academic; peer-review, technical), what are the reasons for choosing the particular standards; and what does the company propose to do to maintain such standards?
+        In order to engender trust, are there customers, suppliers or use cases that you should choose not to work with? How are these decisions made and documented?
+        Does your company have a clear and easy to use system for third party/user or stakeholder concerns to be raised and handled?
+        Have you considered how to embed ethics within your organisation?
+        Have you considered how to embed integrity and fair dealing in your culture?
+        How would a person raise a concern with your company?
+        To inform your processes and culture, could you approach mentors, consult innovation hubs?^
+5. Promote diversity, equality and inclusion
+    We will prioritise companies that can demonstrate that they value and actively seek diversity, equality and inclusion. Companies should consider the impact and utility of their product for individuals, larger groups and society as a whole, including its impact on widening or narrowing inequality, enabling or constraining discrimination, and other political, cultural and environmental factors.
+        Do you have processes in place to establish whether your product or service might have a negative impact on the rights and liberties of individuals or groups? Please consider:
+    – varied social backgrounds and education levels
+    – different ages
+    – different gender and or sexual orientation
+    – different nationalities or ethnicity
+    – different political, religious and cultural backgrounds
+    – physical or hidden disabilities.
+        What actions can you take if negative impacts are identified?
+        Social impact can be difficult to be demonstrated: have you considered processes that can enable you to demonstrate the positive impact your product or service brings?
+        Have you considered putting in place a diversity and inclusiveness policy in relation to recruitment and retention of staff?
+        Have you consider how to balance the specific responsibilities of a startup against other factors such as cost and freedom of choice for users?
+        Are potential biases in the data and processes are examined, well-understood and documented and is there a plan to mitigate against them?
+        Where do hiring practices and building culture fit in? For instance, are ethical questions raised at interviews? Are any principles/risk considerations communicated to new hires?
+        Does your company have a diversity and inclusiveness policy in relation to recruitment and retention of staff?^
+6. Be open and understandable in communications
+    Companies must be able to communicate clearly the benefits and potential risks of their products and the actions they have taken to deliver benefits and avoid, minimise, or mitigate the risks. They must ensure that processes are in place to address the concerns and complaints of users and other parties, and that these are transparent. We believe that effective communication, when coupled with a principled approach to ethical considerations, is a competitive advantage, and will lead to progress even when hard moral issues are on the line. Conversely, poor communication, and a lack of attention to the social and ethical environment for doing business, can result in adverse public reactions, direct legal repercussions as well as mounting regulation, and hence increased costs and higher rates of failure.
+        Does your company communicate clearly, honestly and directly about any potential risks of the product or service you are providing?
+        What does it communicate and when?
+        Does your company communicate clearly, honestly and directly about the processes in place to avoid, minimise or mitigate potential risks?
+        Does your company have a clear and easy to use system for third party/user or stakeholder concerns to be raised and handled?
+        Are the company’s policies relating to ethical principles available publicly and to employees? Are the processes to implement and update the policies open and transparent?
+        Does the company disclose issues other than the product e.g. projects, studies and other activities funded by the company or which the company may work in conjunction or otherwise be involved with; the major sources of data and expertise that inform the insights of AI solutions and the methods used to train those systems and solutions?
+        Have you considered a communication strategy and process if something goes wrong?^
+7. Consider your business model
+    Integrity and fair dealing should be an integral part of organisational culture. Companies should consider what structures and processes are being employed to drive revenue or other material value to the organisation as certain business models or pricing strategies can result in discrimination. Where possible and appropriate, companies should consider whether part of the product, service or data can be made available to the public.
+        What kind of Corporate structure best meets your needs? As well as the traditional company limited by shares, there are a variety of ‘social enterprise’ alternatives, including community interest company, co-operative, B-Corp and company limited by guarantee. Are any of these of interest?
+        Data exchange: are you providing free services in exchange for user data? Are there any ethical implications for this? Do users have a clear idea of how the data will be used, including any future linking/sale of the data?
+        What happens if the company is acquired? For example, what happens to its data and software?
+        Pricing: have you considered differential prices:Are there any ethical considerations regarding your pricing strategy? Are there any vulnerable groups to which you would want to offer lower prices?
+        Data philanthropy: do you have data that you could let others (e.g. charities, researchers) use for public purpose benefits?
+        Is integrity and fair dealing embedded in your organisational culture?^
+1. Be socially beneficial.
+The expanded reach of new technologies increasingly touches society as a whole. Advances in AI will have transformative impacts in a wide range of fields, including healthcare, security, energy, transportation, manufacturing, and entertainment. As we consider potential development and uses of AI technologies, we will take into account a broad range of social and economic factors, and will proceed where we believe that the overall likely benefits substantially exceed the foreseeable risks and downsides.
+AI also enhances our ability to understand the meaning of content at scale. We will strive to make high-quality and accurate information readily available using AI, while continuing to respect cultural, social, and legal norms in the countries where we operate. And we will continue to thoughtfully evaluate when to make our technologies available on a non-commercial basis.^
+2. Avoid creating or reinforcing unfair bias.
+AI algorithms and datasets can reflect, reinforce, or reduce unfair biases.  We recognize that distinguishing fair from unfair biases is not always simple, and differs across cultures and societies. We will seek to avoid unjust impacts on people, particularly those related to sensitive characteristics such as race, ethnicity, gender, nationality, income, sexual orientation, ability, and political or religious belief.^
+3. Be built and tested for safety.
+We will continue to develop and apply strong safety and security practices to avoid unintended results that create risks of harm.  We will design our AI systems to be appropriately cautious, and seek to develop them in accordance with best practices in AI safety research. In appropriate cases, we will test AI technologies in constrained environments and monitor their operation after deployment.^
+4. Be accountable to people.
+We will design AI systems that provide appropriate opportunities for feedback, relevant explanations, and appeal. Our AI technologies will be subject to appropriate human direction and control.^
+5. Incorporate privacy design principles.
+We will incorporate our privacy principles in the development and use of our AI technologies. We will give opportunity for notice and consent, encourage architectures with privacy safeguards, and provide appropriate transparency and control over the use of data.^
+6. Uphold high standards of scientific excellence.
+Technological innovation is rooted in the scientific method and a commitment to open inquiry, intellectual rigor, integrity, and collaboration. AI tools have the potential to unlock new realms of scientific research and knowledge in critical domains like biology, chemistry, medicine, and environmental sciences. We aspire to high standards of scientific excellence as we work to progress AI development.
+We will work with a range of stakeholders to promote thoughtful leadership in this area, drawing on scientifically rigorous and multidisciplinary approaches. And we will responsibly share AI knowledge by publishing educational materials, best practices, and research that enable more people to develop useful AI applications.^
+7. Be made available for uses that accord with these principles.
+Many technologies have multiple uses. We will work to limit potentially harmful or abusive applications. As we develop and deploy AI technologies, we will evaluate likely uses in light of the following factors:
+    Primary purpose and use: the primary purpose and likely use of a technology and application, including how closely the solution is related to or adaptable to a harmful use
+    Nature and uniqueness: whether we are making available technology that is unique or more generally available
+    Scale: whether the use of this technology will have significant impact
+    Nature of Google’s involvement: whether we are providing general-purpose tools, integrating tools for customers, or developing custom solutions^
+- Safety: AI systems should be safe and secure throughout their operational lifetime, and verifiably so where applicable and feasible.^
+- Failure Transparency: If an AI system causes harm, it should be possible to ascertain why.^
+- Judicial Transparency: Any involvement by an autonomous system in judicial decision-making should provide a satisfactory explanation auditable by a competent human authority.^
+- Responsibility: Designers and builders of advanced AI systems are stakeholders in the moral implications of their use, misuse, and actions, with a responsibility and opportunity to shape those implications.^
+- Value Alignment: Highly autonomous AI systems should be designed so that their goals and behaviors can be assured to align with human values throughout their operation.^
+- Human Values: AI systems should be designed and operated so as to be compatible with ideals of human dignity, rights, freedoms, and cultural diversity.^
+- Personal Privacy: People should have the right to access, manage and control the data they generate, given AI systems’ power to analyze and utilize that data.^
+- Liberty and Privacy: The application of AI to personal data must not unreasonably curtail people’s real or perceived liberty.^
+- Shared Benefit: AI technologies should benefit and empower as many people as possible.^
+- Shared Prosperity: The economic prosperity created by AI should be shared broadly, to benefit all of humanity.^
+- Human Control: Humans should choose how and whether to delegate decisions to AI systems, to accomplish human-chosen objectives.^
+- Non-subversion: The power conferred by control of highly advanced AI systems should respect and improve, rather than subvert, the social and civic processes on which the health of society depends.^
+- AI Arms Race: An arms race in lethal autonomous weapons should be avoided.^
+- Safety-Critical AI
+Advances in AI have the potential to improve outcomes, enhance quality, and reduce costs in such safety-critical areas as healthcare and transportation. Effective and careful applications of pattern recognition, automated decision making, and robotic systems show promise for enhancing the quality of life and preventing thousands of needless deaths.
+However, where AI tools are used to supplement or replace human decision-making, we must be sure that they are safe, trustworthy, and aligned with the ethics and preferences of people who are influenced by their actions.
+We will pursue studies and best practices around the fielding of AI in safety-critical application areas.^
+- Fair, Transparent, and Accountable AI
+AI has the potential to provide societal value by recognizing patterns and drawing inferences from large amounts of data. Data can be harnessed to develop useful diagnostic systems and recommendation engines, and to support people in making breakthroughs in such areas as biomedicine, public health, safety, criminal justice, education, and sustainability.
+While such results promise to provide real benefits, we need to be sensitive to the possibility that there are hidden assumptions and biases in data, and therefore in the systems built from that data — in addition to a wide range of other system choices which can be impacted by biases, assumptions, and limits. This can lead to actions and recommendations that replicate those biases, and have serious blind spots.
+Researchers, officials, and the public should be sensitive to these possibilities and we should seek to develop methods that detect and correct those errors and biases, not replicate them. We also need to work to develop systems that can explain the rationale for inferences.
+We will pursue opportunities to develop best practices around the development and fielding of fair, explainable, and accountable AI systems.^
+- AI, Labor, and the Economy
+AI advances will undoubtedly have multiple influences on the distribution of jobs and nature of work. While advances promise to inject great value into the economy, they can also be the source of disruptions as new kinds of work are created and other types of work become less needed due to automation.
+Discussions are rising on the best approaches to minimizing potential disruptions, making sure that the fruits of AI advances are widely shared and competition and innovation are encouraged and not stifled. We seek to study and understand best paths forward, and play a role in this discussion.^
+- Collaborations Between People and AI Systems
+A promising area of AI is the design of systems that augment the perception, cognition, and problem-solving abilities of people. Examples include the use of AI technologies to help physicians make more timely and accurate diagnoses and assistance provided to drivers of cars to help them to avoid dangerous situations and crashes.
+Opportunities for R&D and for the development of best practices on AI-human collaboration include methods that provide people with clarity about the understandings and confidence that AI systems have about situations, means for coordinating human and AI contributions to problem solving, and enabling AI systems to work with people to resolve uncertainties about human goals.^
+- Social and Societal Influences of AI
+AI advances will touch people and society in numerous ways, including potential influences on privacy, democracy, criminal justice, and human rights. For example, while technologies that personalize information and that assist people with recommendations can provide people with valuable assistance, they could also inadvertently or deliberately manipulate people and influence opinions.
+We seek to promote thoughtful collaboration and open dialogue about the potential subtle and salient influences of AI on people and society.^
+- AI and Social Good
+AI offers great potential for promoting the public good, for example in the realms of education, housing, public health, and sustainability. We see great value in collaborating with public and private organizations, including academia, scientific societies, NGOs, social entrepreneurs, and interested private citizens to promote discussions and catalyze efforts to address society’s most pressing challenges.
+Some of these projects may address deep societal challenges and will be moonshots – ambitious big bets that could have far-reaching impacts. Others may be creative ideas that could quickly produce positive results by harnessing AI advances.^
